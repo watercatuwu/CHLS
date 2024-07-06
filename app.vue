@@ -42,8 +42,18 @@
 </template>
 
 <script setup>
-import Themetoggle from './components/themetoggle.vue';
-
+useHead({
+  title: '中壢大中',
+  meta: [
+    { name: 'description', content: '中壢大中官方網站' }
+  ],
+})
+useSeoMeta({
+  title: '中壢大中',
+  ogTitle: '中壢大中',
+  description: '中壢大中官方網站',
+  ogDescription: '中壢大中官方網站',
+})
 </script>
 
 <style scoped>
