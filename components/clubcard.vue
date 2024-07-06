@@ -15,7 +15,7 @@
         <p class="text-xl">{{ props.description }}</p>
         <div class="flex justify-end gap-2">
             <div v-for="[key, value] of Object.entries(props.social)" >
-                <a :href="value">
+                <a :href="value" target="_blank" rel="noopener noreferrer">
                     <icon :name="geticon(key)" size="2rem"/>
                 </a>
             </div>

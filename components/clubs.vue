@@ -36,10 +36,10 @@ getClubs();
 const exampleObject = {
   nick: 'uwu',
   name: '加入你的社團?',
-  description: '請至Github issue創建suggestion',
+  description: '請至Github issue創建請求(label選擇clubrequest)或是聯絡Discord @watercatuwu',
   image: 'https://i.meee.com.tw/VHoZLWW.jpg',
   social: {
-    github: 'https://github.com/watercatuwu/chls'
+    github: 'https://github.com/watercatuwu/CHLS/issues/new'
   }
 };
 </script>

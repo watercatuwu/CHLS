@@ -32,7 +32,7 @@
           <a href="https://www.clhs.tyc.edu.tw/" title="學校官網" target="_blank" rel="noopener noreferrer">
             <icon name="tabler:school" class="w-8" size="1.5rem" />
           </a>
-          <a href="https://github.com/" title="Github Repo" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/watercatuwu/chls" title="Github Repo" target="_blank" rel="noopener noreferrer">
             <icon name="tabler:brand-github" class="w-8" size="1.5rem" />
           </a>
         </div>
