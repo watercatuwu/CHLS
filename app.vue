@@ -10,6 +10,7 @@
     </v-app-bar>
     <div class="flex-1 justify-center my-16">
       <div class="flex flex-col container gap-6 mx-auto p-4">
+        <Hero />
         <linktitle id="shortcuts" title="常用連結" anchor="shortcuts" />
         <Shortcuts />
         <linktitle id="announcements" title="學校公告" anchor="announcements" />
@@ -42,15 +43,21 @@
 </template>
 
 <script setup>
+import { useTheme } from 'vuetify'
+
+const theme = useTheme()
+
+theme.global.name.value = 'dark'
+
 useHead({
-  title: '中壢大中',
+  title: '中壢大中官網',
   meta: [
     { name: 'description', content: '中壢大中官方網站' }
   ],
 })
 useSeoMeta({
-  title: '中壢大中',
-  ogTitle: '中壢大中',
+  title: '中壢大中官網',
+  ogTitle: '中壢大中官網',
   description: '中壢大中官方網站',
   ogDescription: '中壢大中官方網站',
 })

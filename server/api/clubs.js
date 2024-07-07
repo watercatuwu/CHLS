@@ -6,7 +6,8 @@ const clubs = {
         social: {
             site: 'https://sites.google.com/clhs.tyc.edu.tw/maker/home',
             instagram: 'https://www.instagram.com/clhs_clmk/'
-        }
+        },
+        type: '學術'
     }
 }
 

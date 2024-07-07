@@ -1,18 +1,22 @@
 <template>
   <v-card>
     <v-img
-      height="500px"
       image="500px"
       :src="props.image"
       cover
     ></v-img>
 
-    <div class="p-4">
+    <v-card-text class="p-4 min-h-60">
         <h1 class="text-2xl font-bold">
         {{ props.name }}
         </h1>
         <span class="text-gray-400 text-lg">{{ props.nick.toUpperCase() }}</span>
         <p class="text-xl">{{ props.description }}</p>
+        <v-chip class="mt-2" size="large">
+            {{ props.type }}
+        </v-chip>
+    </v-card-text>
+    <v-card-text class="bg-surface-light">
         <div class="flex justify-end gap-2">
             <div v-for="[key, value] of Object.entries(props.social)" >
                 <a :href="value" target="_blank" rel="noopener noreferrer">
@@ -20,7 +24,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </v-card-text>
   </v-card>
 </template>
 
@@ -31,6 +35,7 @@ const props = defineProps({
     description: String,
     image: String,
     social: Object,
+    type: String
 })
 
 const socialIcons = {
