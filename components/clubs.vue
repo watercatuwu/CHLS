@@ -23,6 +23,7 @@
             :type="exampleObject.type"
         />
     </div>
+    <p class="text-end">random cats by <a href="https://cataas.com/" target="_blank" rel="noopener noreferrer">CATAAS</a></p>
 </template>
 
 <script setup>

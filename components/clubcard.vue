@@ -1,10 +1,19 @@
 <template>
   <v-card>
-    <v-img
-      image="500px"
-      :src="props.image"
-      cover
-    ></v-img>
+    <div id="img" class="overflow-hidden">
+        <v-img v-if="props.image"
+        :src="props.image"
+        :width="500"
+        aspect-ratio="1/1"
+        cover
+        ></v-img>
+        <v-img v-else
+        :width="500"
+        aspect-ratio="1/1"
+        src="https://cataas.com/cat?type=square"
+        cover
+        ></v-img>
+    </div>
 
     <v-card-text class="p-4 min-h-60">
         <h1 class="text-2xl font-bold">
@@ -51,3 +60,10 @@ const geticon = (name) => {
     return socialIcons[name] || defaulticon
 }
 </script>
+
+<style scoped>
+#img{
+    min-height: 500px;
+    max-height: 500px
+}
+</style>

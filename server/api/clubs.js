@@ -8,6 +8,15 @@ const clubs = {
             instagram: 'https://www.instagram.com/clhs_clmk/'
         },
         type: '學術'
+    },
+    clbg:{
+        name:'桌遊社',
+        description:'☆壢中桌遊，等你加入☆',
+        image: '',
+        social: {
+            instagram: 'https://www.instagram.com/_clbg'
+        },
+        type: '才藝'
     }
 }
 
