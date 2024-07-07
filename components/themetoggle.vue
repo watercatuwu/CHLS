@@ -10,8 +10,8 @@ import { useTheme } from 'vuetify'
 const theme = useTheme()
 
 const icons = {
-    'light': 'tabler:sun',
-    'dark': 'tabler:moon',
+    'light': 'tabler:moon',
+    'dark': 'tabler:sun',
 }
 const iconName = ref(icons[theme.global.name.value])
 

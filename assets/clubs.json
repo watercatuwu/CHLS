@@ -1,0 +1,337 @@
+{
+  "clmk": {
+      "name": "創客社",
+      "description": "Where Dreamers, Become Makers.",
+      "image": "https://i.meee.com.tw/2H8plgm.jpg",
+      "social": {
+        "site": "https://sites.google.com/clhs.tyc.edu.tw/maker/home",
+        "instagram": "https://www.instagram.com/clhs_clmk/"
+      },
+      "type": "學術"
+    },
+    "clbg": {
+      "name": "桌遊社",
+      "description": "☆壢中桌遊，等你加入☆",
+      "image": "https://i.meee.com.tw/crDSQco.jpg",
+      "social": {
+        "instagram": "https://www.instagram.com/_clbg"
+      },
+      "type": "才藝"
+    },
+    "clas": {
+      "name": "社聯會",
+      "description": "",
+      "image": "https://i.meee.com.tw/S9WL8p0.jpg",
+      "social": {
+        "instagram": "https://www.instagram.com/clas_15th/"
+      },
+      "type": "其他"
+    },
+    "clsc": {
+        "name":"仁愛春暉社",
+        "description": "",
+        "image": "https://i.meee.com.tw/R5nVJ4W.jpg",
+        "social": {
+            "instagram": "https://www.instagram.com/clsc_clhs_"
+        },
+        "type": "服務"
+    },
+    "cltt":{
+    "name": "桌球社",
+    "description": "",
+    "image": "https://i.meee.com.tw/VKlpAsH.jpg",
+    "social": {
+      "instagram": "https://www.instagram.com/cltt_2023gogo"
+    },
+    "type": "體育"
+  },
+  "clma":{
+    "name": "武術社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhs_ma_"
+    },
+    "type": "體育"
+  },
+  "clsc(swim)":{
+    "name": "游泳社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clsc11th"
+    },
+    "type": "體育"
+  },
+  "korfball":{
+    "name": "合球社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/korfball_clhs"
+    },
+    "type": "體育"
+  },
+  "baseball":{
+    "name": "棒球隊",
+    "description": "",
+    "image": "https://i.meee.com.tw/XakNt0q.jpg",
+    "social": {
+      "instagram": "https://www.instagram.com/clhs_baseball_",
+      "facebook": "https://www.facebook.com/clhsbaseball"
+    },
+    "type": "體育"
+  },
+  "clbc":{
+    "name": "羽球社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clbc_2024gogo"
+    },
+    "type": "體育"
+  },
+  "clbc(basketball)":{
+    "name": "男籃球社",
+    "description": "",
+    "image": "",
+    "social": {
+        "facebook": "https://www.facebook.com/clhsbasketballclub/"
+    },
+    "type": "體育"
+  },
+  "clvc":{
+    "name": "排球社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhs_vc"
+    },
+    "type": "體育"
+  },
+  "clbl":{
+    "name": "保齡球社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhs.bowling_"
+    },
+    "type": "體育"
+  },
+  "clgb": {
+    "name": "女籃球社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clgb_11th"
+    },
+    "type": "體育"
+  },
+  "cljs":{
+    "name": "日本文化研究社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/cljs_75th"
+    },
+    "type": "學術"
+  },
+  "clsc(science)":{
+    "name": "科學研究社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clsc14th_clhs"
+    },
+    "type": "學術"
+  },
+  "debate":{
+    "name": "健言社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhs_debate"
+    },
+    "type": "學術"
+  },
+  "clac":{
+    "name": "天文社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clac_astronomical/"
+    },
+    "type": "學術"
+  },
+  "clmun":{
+    "name": "模擬聯合國社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clmun_"
+    },
+    "type": "學術"
+  },
+  "clmm":{
+    "name": "大眾傳播社(壢風大傳)",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhs_massmedia/"
+    },
+    "type": "學術"
+  },
+  "clcm":{
+    "name": "國樂社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhs_clcm666"
+    },
+    "type": "才藝"
+  },
+  "clwb":{
+    "name": "管樂社",
+    "description": "",
+    "image": "",
+    "social": {
+      "facebook": "https://www.facebook.com/clwb.crazy"
+    },
+    "type": "才藝"
+  },
+  "clpm":{
+    "name": "熱門音樂社(熱音)",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clpm19th_"
+    },
+    "type": "才藝"
+  },
+  "crescent":{
+    "name": "吉他社(弦月吉他)",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/crescent_clhs"
+    },
+    "type": "才藝"
+  },
+  "cluku":{
+    "name": "烏克麗麗社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/cluku_11th/"
+    },
+    "type": "才藝"
+  },
+  "clwm":{
+    "name": "西洋歌曲研究社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhs_clwm"
+    },
+    "type": "才藝"
+  },
+  "clps":{
+    "name": "流行歌曲演唱社(流唱)",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clps_7th/"
+    },
+    "type": "才藝"
+  },
+  "hhz":{
+    "name": "熱舞社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/hhz24th"
+    },
+    "type": "才藝"
+  },
+  "clkm": {
+    "name": "韓樂社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clkm14th"
+    },
+    "type": "才藝"
+  },
+  "clmg": {
+    "name": "魔術社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clmg_13th/"
+    },
+    "type": "才藝"
+  },
+  "clfa": {
+    "name": "影片欣賞社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhs__film"
+    },
+    "type": "才藝"
+  },
+  "clcc":{
+    "name": "烹飪社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clcc__12th"
+    },
+    "type": "才藝"
+  },
+  "clhm":{
+    "name": "手工藝研習社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhm.71"
+    },
+    "type": "才藝"
+  },
+  "licom":{
+    "name": "康輔社",
+    "description": "",
+    "image": "",
+    "social": {
+      "facebook": "https://www.facebook.com/LicomKFC/"
+    },
+    "type": "才藝"
+  },
+  "clsb":{
+    "name": "滑板社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clsb_sweetbabe"
+    },
+    "type": "才藝"
+  },
+  "clhh":{
+    "name": "嘻哈研究社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clhh_hiphop"
+    },
+    "type": "才藝"
+  },
+  "clbo":{
+    "name": "breaking社",
+    "description": "",
+    "image": "",
+    "social": {
+      "instagram": "https://www.instagram.com/clbo_3rd"
+    },
+    "type": "才藝"
+  }
+}

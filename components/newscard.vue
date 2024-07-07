@@ -40,8 +40,24 @@ const props = defineProps({
 });
 
 const loading = ref(false)
+function hexToColor(hex) {
+    var r = parseInt(hex.substring(0, 2), 16);
+    var g = parseInt(hex.substring(2, 4), 16);
+    var b = parseInt(hex.substring(4, 6), 16);
+
+    if (r > g && r > b) {
+        return '#e11d48';
+    } else if (g > r && g > b) {
+        return '#16a34a';
+    } else if (b > r && b > g) {
+        return '#2563eb';
+    } else {
+        return 'unknown';
+    }
+}
+
 const titleStyle = {
-    color: '#'+props.titleColor
+    color: hexToColor(props.titleColor)
 }
 const content = ref('')
 

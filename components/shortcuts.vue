@@ -13,7 +13,7 @@
 <script setup>
 const shortcuts = [
     {
-        title: "中大壢中",
+        title: "中大壢中官網",
         subtitle: "學校官網",
         icon: "mdi-school-outline",
         url: "https://www.clhs.tyc.edu.tw/home"
@@ -25,16 +25,16 @@ const shortcuts = [
         url: "https://shcloud2.k12ea.gov.tw/CLHSTYC/Auth"
     },
     {
-        title: "新生專區",
-        subtitle: "小高一去看",
-        icon: "mdi-book-open-outline",
-        url: "https://www.clhs.tyc.edu.tw/ischool/publish_page/284/"
-    },
-    {
         title: "自主學習系統",
         subtitle: "圖書館自主學習系統",
         icon: "mdi-archive-outline",
         url: "https://auto-learning.clhs.tyc.edu.tw/"
+    },
+    {
+        title: "新生專區",
+        subtitle: "小高一去看",
+        icon: "mdi-book-open-outline",
+        url: "https://www.clhs.tyc.edu.tw/ischool/publish_page/284/"
     }
 ]
 </script>

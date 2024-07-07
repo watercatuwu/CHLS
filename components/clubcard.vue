@@ -1,21 +1,12 @@
 <template>
-  <v-card>
-    <div id="img" class="overflow-hidden">
-        <v-img v-if="props.image"
+  <v-card class="relative pb-16 rounded-lg">
+    <v-img
+        class="rounded-t-lg"
+        cover
         :src="props.image"
-        :width="500"
-        aspect-ratio="1/1"
-        cover
-        ></v-img>
-        <v-img v-else
-        :width="500"
-        aspect-ratio="1/1"
-        src="https://cataas.com/cat?type=square"
-        cover
-        ></v-img>
-    </div>
-
-    <v-card-text class="p-4 min-h-60">
+        aspect-ratio="1"
+    />
+    <v-card-text>
         <h1 class="text-2xl font-bold">
         {{ props.name }}
         </h1>
@@ -25,15 +16,15 @@
             {{ props.type }}
         </v-chip>
     </v-card-text>
-    <v-card-text class="bg-surface-light">
-        <div class="flex justify-end gap-2">
+    <v-card-actions class="absolute bottom-0 left-0 w-full bg-surface-light justify-end items-center">
+        <div class="flex gap-2 items-center">
             <div v-for="[key, value] of Object.entries(props.social)" >
                 <a :href="value" target="_blank" rel="noopener noreferrer">
                     <icon :name="geticon(key)" size="2rem"/>
                 </a>
             </div>
         </div>
-    </v-card-text>
+    </v-card-actions>
   </v-card>
 </template>
 

@@ -1,14 +1,14 @@
 <template>
   <v-app class="flex flex-col min-h-screen">
     <v-app-bar id='appbar' app color="indigo-darken-2" dark>
-      <v-toolbar-title class="text-h5">中壢大中</v-toolbar-title>
+      <v-toolbar-title @click="scrollToElement('appbar')" class="text-h5 cursor-pointer">中壢大中</v-toolbar-title>
       <v-spacer></v-spacer>
       <div class="flex gap-4 p-4">
         <Themetoggle />
         <navmenu />
       </div>
     </v-app-bar>
-    <div class="flex-1 justify-center my-16">
+    <div class="flex-1 justify-center mt-24 mb-12">
       <div class="flex flex-col container gap-6 mx-auto p-4">
         <Hero />
         <linktitle id="shortcuts" title="常用連結" anchor="shortcuts" />
@@ -30,11 +30,11 @@
           </p>
         </div>
         <div class="flex gap-2 items-center hover:underline">
-          <a href="https://www.clhs.tyc.edu.tw/" title="學校官網" target="_blank" rel="noopener noreferrer">
-            <icon name="tabler:school" class="w-8" size="1.5rem" />
-          </a>
           <a href="https://github.com/watercatuwu/chls" title="Github Repo" target="_blank" rel="noopener noreferrer">
             <icon name="tabler:brand-github" class="w-8" size="1.5rem" />
+          </a>
+          <a href="https://www.youtube.com/watch?v=ZZvIVRQ4E7I" title="Github Issues" target="_blank" rel="noopener noreferrer">
+            <icon name="tabler:deer" class="w-8" size="1.5rem" />
           </a>
         </div>
       </div>
@@ -52,7 +52,8 @@ theme.global.name.value = 'dark'
 useHead({
   title: '中壢大中官網',
   meta: [
-    { name: 'description', content: '中壢大中官方網站' }
+    { name: 'description', content: '中壢大中官方網站' },
+    { name: 'google-site-verification', content: 'X9eP00pJfv2y0GzKFMaVhbDvg7s8WL8yC1w2bxRb07M' },
   ],
 })
 useSeoMeta({
