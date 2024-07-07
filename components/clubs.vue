@@ -5,7 +5,7 @@
             {{type}} {{types[type]}}
         </v-chip>
     </v-chip-group>
-    <div v-if="!loading" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div v-if="!loading" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <clubcard v-for="[key, value] of Object.entries(clubs)" v-show="clubfilter(value.name, key, value.type)"
             :key="key"
             :nick="key"
@@ -71,9 +71,9 @@ function clubfilter (name, nick, type) {
 }
 
 const exampleObject = {
-  nick: 'CLXX',
-  name: '新增或修改社團資訊?',
-  description: '詳細請見github repo README',
+  nick: 'help',
+  name: '社團資訊有誤?',
+  description: '詳細請見github repo README或聯絡Discord @watercatuwu',
   image: 'https://i.meee.com.tw/VHoZLWW.jpg',
   social: {
     github: 'https://github.com/watercatuwu/CHLS/issues/new'
