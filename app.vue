@@ -31,20 +31,6 @@ import { useTheme } from 'vuetify'
 const theme = useTheme()
 
 theme.global.name.value = 'dark'
-
-useHead({
-  title: '中壢大中官網',
-  meta: [
-    { name: 'description', content: '中壢大中官方網站' },
-    { name: 'google-site-verification', content: 'X9eP00pJfv2y0GzKFMaVhbDvg7s8WL8yC1w2bxRb07M' },
-  ],
-})
-useSeoMeta({
-  title: '中壢大中官網',
-  ogTitle: '中壢大中官網',
-  description: '中壢大中官方網站',
-  ogDescription: '中壢大中官方網站',
-})
 </script>
 
 <style scoped>
