@@ -1,11 +1,11 @@
 <template>
         <v-expansion-panel>
             <v-expansion-panel-title @click="getNewsContent">
-                <h1 class="text-xl" :style="titleStyle">{{ props.title }}</h1>
+                <h1 class="text-lg" :style="titleStyle">{{ props.title }}</h1>
             </v-expansion-panel-title>
             <v-progress-linear v-if="loading" color="indigo-lighten-2" height="8" indeterminate></v-progress-linear>
             <v-expansion-panel-text v-else>
-                <div id="content" class="p-4 text-lg" v-html="content"></div>
+                <div id="content" class="p-4" v-html="content"></div>
                 <div class="flex flex-wrap gap-2 my-4">
                     <v-chip label size="large">
                         <icon name="tabler:calendar-smile" class="w-8" size="1.5rem" />
