@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxtjs/tailwindcss",
     "@nuxt/icon",
-    "vuetify-nuxt-module"
+    "vuetify-nuxt-module",
+    "@vite-pwa/nuxt"
   ],
 
   googleFonts: {
