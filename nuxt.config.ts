@@ -8,6 +8,12 @@ export default defineNuxtConfig({
     "vuetify-nuxt-module",
     "@vite-pwa/nuxt"
   ],
+  pwa: {
+    manifest: {
+      name: '中壢大中官網',
+      short_name: '中壢大中',
+    }
+  },
 
   googleFonts: {
     families: {
