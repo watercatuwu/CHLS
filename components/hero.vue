@@ -14,17 +14,19 @@
 </template>
 
 <script setup>
-const messages = ref([
+const messages = [
   '提供捷徑、學校公告、社團資訊的超級宇宙無敵霹靂好網站',
   '你說得對，但是這就是聖園ミカ，🤔HP61908，攻擊力3932，防禦力115的學生。有必定爆擊🤚，有追傷👌，還能增加攻擊力✌。1540％倍率🤙，甚至會根據敵人血量翻倍✊，只要6cost👍。能裝手錶👈，還有徽章✌。然後，增加自己傷害同時減少受到的傷害👐，還能站前排承傷🙌，地形適性兩張綠臉😨，然後專二還有貫通特效😰。羈絆劇情就👊🏿😭👊🏿啊啊啊啊啊啊🖐😭🤚',
-])
+]
 
-const currentText = ref('')
+const currentText = ref(messages[0])
 
 const randomMessage = () => {
-  const randomIndex = Math.floor(Math.random() * messages.value.length)
-  console.log(randomIndex)
-  currentText.value = messages.value[randomIndex]
+  const random = Math.random()
+  const probability = 0.01
+  if (random < probability) {
+    currentText.value = messages[2]
+  }
 }
 
 randomMessage()
