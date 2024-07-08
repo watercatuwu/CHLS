@@ -8,10 +8,29 @@ export default defineNuxtConfig({
     "vuetify-nuxt-module",
     "@vite-pwa/nuxt"
   ],
+  nitro: {
+    storage: {
+      serverFileSystem: {
+        driver: 'fs',
+        base: 'assets/server',
+      }
+    }
+  },
   pwa: {
     manifest: {
       name: '中壢大中官網',
       short_name: '中壢大中',
+      icons:[
+        {
+          src: '/maskable_icon_x128.png',
+          sizes: '128x128',
+          type: 'image/png'
+        }
+      ],
+      description: '中壢大中官網',
+      theme_color: '#ffffff',
+      background_color: '#ffffff',
+      display: 'standalone',
     }
   },
 

@@ -24,12 +24,13 @@
             :type="exampleObject.type"
         />
     </div>
-    <p class="text-end">圖片來源皆為facebook或instagram社帳</p>
-    <p class="text-end"></p>
+    <div>
+        <p class="text-end">圖片來源皆為facebook或instagram社帳 若有更新或畫質更好的圖片歡迎提供</p>
+        <p class="text-end">圖片版權皆屬於各社團，若希望撤下請聯絡Discord @watercatuwu</p>
+    </div>
 </template>
 
 <script setup>
-import axios from 'axios';
 import clubsData from '~/assets/clubs.json';
 
 const loading = ref(true);

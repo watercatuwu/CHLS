@@ -35,7 +35,7 @@
           </v-tabs-window>
         </div>
         <v-card-text class="text-end">
-          powered by <a href="https://github.com/BWsix/CLHS-api/" target="_blank">BWsix/CLHS-api</a>
+          powered by <a class="underline" href="https://github.com/BWsix/CLHS-api/" target="_blank">BWsix/CLHS-api</a>
         </v-card-text>
       </v-card>
 </template>

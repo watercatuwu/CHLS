@@ -51,10 +51,3 @@ const geticon = (name) => {
     return socialIcons[name] || defaulticon
 }
 </script>
-
-<style scoped>
-#img{
-    min-height: 500px;
-    max-height: 500px
-}
-</style>
