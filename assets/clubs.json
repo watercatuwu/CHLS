@@ -54,10 +54,10 @@
     },
     "type": "體育"
   },
-  "clsc_swim": {
+  "clsc(swim)":{
     "name": "游泳社",
     "description": "",
-    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clsc_swim.webp",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clscswim.webp",
     "social": {
       "instagram": "https://www.instagram.com/clsc11th"
     },
@@ -91,7 +91,7 @@
     },
     "type": "體育"
   },
-  "clbc_basketball": {
+  "clbc(basketball)":{
     "name": "男籃球社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbc_basketball.webp",
@@ -136,7 +136,7 @@
     },
     "type": "學術"
   },
-  "clsc_science": {
+  "clsc(science)":{
     "name": "科學研究社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clsc_science.webp",
