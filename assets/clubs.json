@@ -1,42 +1,42 @@
 {
   "clmk": {
-      "name": "創客社",
-      "description": "Where Dreamers, Become Makers.",
-      "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clmk.webp",
-      "social": {
-        "site": "https://sites.google.com/clhs.tyc.edu.tw/maker/home",
-        "instagram": "https://www.instagram.com/clhs_clmk/"
-      },
-      "type": "學術"
+    "name": "創客社",
+    "description": "Where Dreamers, Become Makers.",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clmk.webp",
+    "social": {
+      "site": "https://sites.google.com/clhs.tyc.edu.tw/maker/home",
+      "instagram": "https://www.instagram.com/clhs_clmk/"
     },
-    "clbg": {
-      "name": "桌遊社",
-      "description": "☆壢中桌遊，等你加入☆",
-      "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbg.webp",
-      "social": {
-        "instagram": "https://www.instagram.com/_clbg"
-      },
-      "type": "才藝"
+    "type": "學術"
+  },
+  "clbg": {
+    "name": "桌遊社",
+    "description": "☆壢中桌遊，等你加入☆",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbg.webp",
+    "social": {
+      "instagram": "https://www.instagram.com/_clbg"
     },
-    "clas": {
-      "name": "社聯會",
-      "description": "",
-      "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clas.webp",
-      "social": {
-        "instagram": "https://www.instagram.com/clas_15th/"
-      },
-      "type": "其他"
+    "type": "才藝"
+  },
+  "clas": {
+    "name": "社聯會",
+    "description": "",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clas.webp",
+    "social": {
+      "instagram": "https://www.instagram.com/clas_15th/"
     },
-    "clsc": {
-        "name":"仁愛春暉社",
-        "description": "",
-        "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clsc.webp",
-        "social": {
-            "instagram": "https://www.instagram.com/clsc_clhs_"
-        },
-        "type": "服務"
+    "type": "其他"
+  },
+  "clsc": {
+    "name": "仁愛春暉社",
+    "description": "",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clsc.webp",
+    "social": {
+      "instagram": "https://www.instagram.com/clsc_clhs_"
     },
-    "cltt":{
+    "type": "服務"
+  },
+  "cltt": {
     "name": "桌球社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/cltt.webp",
@@ -45,7 +45,7 @@
     },
     "type": "體育"
   },
-  "clma":{
+  "clma": {
     "name": "武術社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clma.webp",
@@ -54,16 +54,16 @@
     },
     "type": "體育"
   },
-  "clsc(swim)":{
+  "clsc_swim": {
     "name": "游泳社",
     "description": "",
-    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clscswim.webp",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clsc_swim.webp",
     "social": {
       "instagram": "https://www.instagram.com/clsc11th"
     },
     "type": "體育"
   },
-  "korfball":{
+  "korfball": {
     "name": "合球社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/korfball.webp",
@@ -72,7 +72,7 @@
     },
     "type": "體育"
   },
-  "baseball":{
+  "baseball": {
     "name": "棒球隊",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/baseball.webp",
@@ -82,7 +82,7 @@
     },
     "type": "體育"
   },
-  "clbc":{
+  "clbc": {
     "name": "羽球社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbc.webp",
@@ -91,16 +91,16 @@
     },
     "type": "體育"
   },
-  "clbc(basketball)":{
+  "clbc_basketball": {
     "name": "男籃球社",
     "description": "",
-    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbcbasketball.webp",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbc_basketball.webp",
     "social": {
-        "facebook": "https://www.facebook.com/clhsbasketballclub/"
+      "facebook": "https://www.facebook.com/clhsbasketballclub/"
     },
     "type": "體育"
   },
-  "clvc":{
+  "clvc": {
     "name": "排球社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clvc.webp",
@@ -109,7 +109,7 @@
     },
     "type": "體育"
   },
-  "clbl":{
+  "clbl": {
     "name": "保齡球社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbl.webp",
@@ -123,11 +123,11 @@
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clgb.webp",
     "social": {
-      "instagram": "https://www.instagram.com/clgb_11th"
+      "instagram": "https://www.instagram.com/clgb_12th"
     },
     "type": "體育"
   },
-  "cljs":{
+  "cljs": {
     "name": "日本文化研究社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/cljs.webp",
@@ -136,16 +136,16 @@
     },
     "type": "學術"
   },
-  "clsc(science)":{
+  "clsc_science": {
     "name": "科學研究社",
     "description": "",
-    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clscscience.webp",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clsc_science.webp",
     "social": {
       "instagram": "https://www.instagram.com/clsc14th_clhs"
     },
     "type": "學術"
   },
-  "debate":{
+  "debate": {
     "name": "健言社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/debate.webp",
@@ -154,7 +154,7 @@
     },
     "type": "學術"
   },
-  "clac":{
+  "clac": {
     "name": "天文社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clac.webp",
@@ -163,7 +163,7 @@
     },
     "type": "學術"
   },
-  "clmun":{
+  "clmun": {
     "name": "模擬聯合國社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clmun.webp",
@@ -172,7 +172,7 @@
     },
     "type": "學術"
   },
-  "clmm":{
+  "clmm": {
     "name": "大眾傳播社(壢風大傳)",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clmm.webp",
@@ -181,7 +181,7 @@
     },
     "type": "學術"
   },
-  "clcm":{
+  "clcm": {
     "name": "國樂社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clcm.webp",
@@ -190,7 +190,7 @@
     },
     "type": "才藝"
   },
-  "clwb":{
+  "clwb": {
     "name": "管樂社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clwb.webp",
@@ -199,7 +199,7 @@
     },
     "type": "才藝"
   },
-  "clpm":{
+  "clpm": {
     "name": "熱門音樂社(熱音)",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clpm.webp",
@@ -208,7 +208,7 @@
     },
     "type": "才藝"
   },
-  "crescent":{
+  "crescent": {
     "name": "吉他社(弦月吉他)",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/crescent.webp",
@@ -217,7 +217,7 @@
     },
     "type": "才藝"
   },
-  "cluku":{
+  "cluku": {
     "name": "壢克麗麗社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/cluku.webp",
@@ -226,7 +226,7 @@
     },
     "type": "才藝"
   },
-  "clwm":{
+  "clwm": {
     "name": "西洋歌曲研究社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clwm.webp",
@@ -235,7 +235,7 @@
     },
     "type": "才藝"
   },
-  "clps":{
+  "clps": {
     "name": "流行歌曲演唱社(流唱)",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clps.webp",
@@ -244,7 +244,7 @@
     },
     "type": "才藝"
   },
-  "hhz":{
+  "hhz": {
     "name": "熱舞社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/hhz.webp",
@@ -262,7 +262,7 @@
     },
     "type": "才藝"
   },
-  "claf":{
+  "claf": {
     "name": "漫畫研究社(漫研)",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/claf.webp",
@@ -271,7 +271,7 @@
     },
     "type": "才藝"
   },
-  "clmd":{
+  "clmd": {
     "name": "話劇社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clmd.webp",
@@ -298,7 +298,7 @@
     },
     "type": "才藝"
   },
-  "clcc":{
+  "clcc": {
     "name": "烹飪社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clcc.webp",
@@ -307,7 +307,7 @@
     },
     "type": "才藝"
   },
-  "clhm":{
+  "clhm": {
     "name": "手工藝研習社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clhm.webp",
@@ -316,7 +316,7 @@
     },
     "type": "才藝"
   },
-  "licom":{
+  "licom": {
     "name": "康輔社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/licom.webp",
@@ -325,7 +325,7 @@
     },
     "type": "才藝"
   },
-  "clsb":{
+  "clsb": {
     "name": "滑板社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clsb.webp",
@@ -334,7 +334,7 @@
     },
     "type": "才藝"
   },
-  "clhh":{
+  "clhh": {
     "name": "嘻哈研究社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clhh.webp",
@@ -343,7 +343,7 @@
     },
     "type": "才藝"
   },
-  "clbo":{
+  "clbo": {
     "name": "breaking社",
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbo.webp",
