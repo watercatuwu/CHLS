@@ -57,7 +57,7 @@
   "clsc_swim":{
     "name": "游泳社",
     "description": "",
-    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clscswim.webp",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clsc_swim.webp",
     "social": {
       "instagram": "https://www.instagram.com/clsc11th"
     },
@@ -94,7 +94,7 @@
   "clbc_basketball":{
     "name": "男籃球社",
     "description": "",
-    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbcbasketball.webp",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clbc_basketball.webp",
     "social": {
         "facebook": "https://www.facebook.com/clhsbasketballclub/"
     },
@@ -123,7 +123,7 @@
     "description": "",
     "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clgb.webp",
     "social": {
-      "instagram": "https://www.instagram.com/clgb_11th"
+      "instagram": "https://www.instagram.com/clgb_12th"
     },
     "type": "體育"
   },
@@ -139,7 +139,7 @@
   "clsc_science":{
     "name": "科學研究社",
     "description": "",
-    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clscscience.webp",
+    "image": "https://cdn.jsdelivr.net/gh/watercatuwu/picx-images-hosting@master/clhsclubs/clsc_science.webp",
     "social": {
       "instagram": "https://www.instagram.com/clsc14th_clhs"
     },
