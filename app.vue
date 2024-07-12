@@ -11,6 +11,7 @@
     <div class="flex-1 justify-center mt-24 mb-12">
       <div class="flex flex-col container gap-6 mx-auto p-4">
         <Hero />
+        <Weathercard />
         <linktitle id="shortcuts" title="常用連結" anchor="shortcuts" />
         <Shortcuts />
         <linktitle id="announcements" title="學校公告" anchor="announcements" />
@@ -19,6 +20,8 @@
         <Calendar />
         <linktitle id="clubs" title="社團" anchor="clubs" />
         <Clubs />
+        <Linktitle id="faq" title="常見問題" anchor="faq" />
+        <Faq />
       </div>
     </div>
     <Footer />

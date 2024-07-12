@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@clhs-api/core": "^0.0.8",
+    "@iconify-json/meteocons": "^1.1.5",
+    "@nuxtjs/dotenv": "^1.4.2",
     "axios": "^1.7.2",
     "cheerio": "^1.0.0-rc.12",
+    "luxon": "^3.4.4",
     "nuxt": "^3.12.3",
     "vue": "latest"
   },

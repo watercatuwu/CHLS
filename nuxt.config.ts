@@ -9,6 +9,11 @@ export default defineNuxtConfig({
     "vuetify-nuxt-module",
     "@vite-pwa/nuxt"
   ],
+  runtimeConfig: {
+    public: {
+      CWAKEY: process.env.CWAKEY,
+    }
+  },
   app: {
     head:{
       title: '中壢大中官網',
