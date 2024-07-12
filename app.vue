@@ -20,8 +20,6 @@
         <Calendar />
         <linktitle id="clubs" title="社團" anchor="clubs" />
         <Clubs />
-        <Linktitle id="faq" title="常見問題" anchor="faq" />
-        <Faq />
       </div>
     </div>
     <Footer />
