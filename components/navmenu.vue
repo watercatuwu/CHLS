@@ -23,6 +23,5 @@ const items = [
   { title: '學校公告', anchor: 'announcements' },
   { title: '行事曆', anchor: 'calendar' },
   { title: '社團', anchor: 'clubs' },
-  { title: '常見問題', anchor: 'faq' },
 ];
 </script>
