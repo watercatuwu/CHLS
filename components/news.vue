@@ -22,7 +22,7 @@
           </div>
           <v-tabs-window v-model="tab">
             <v-tabs-window-item v-for="t in newsTabs" :value="t">
-              <v-expansion-panels>
+              <v-expansion-panels variant="accordion">
                   <newscard v-for="n in news.value"
                     :title="n.title"
                     :titleColor="n.title_color"

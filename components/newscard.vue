@@ -1,35 +1,48 @@
 <template>
-        <v-expansion-panel>
-            <v-expansion-panel-title @click="getNewsContent">
-                <h1 class="text-lg" :style="titleStyle">{{ props.title }}</h1>
-            </v-expansion-panel-title>
-            <v-progress-linear v-if="loading" color="indigo-lighten-2" height="8" indeterminate></v-progress-linear>
-            <v-expansion-panel-text v-else>
-                <div id="content" class="p-4" v-html="content"></div>
-                <div class="flex flex-wrap gap-2 my-4">
-                    <v-chip label size="large">
-                        <icon name="tabler:calendar-smile" class="w-8" size="1.5rem" />
-                        {{ props.time }}
-                    </v-chip>
-                    <v-chip label size="large">
-                        <icon name="tabler:building" class="w-8" size="1.5rem" />
-                        {{ props.name }}
-                    </v-chip>
-                    <v-chip label size="large">
-                        <icon name="tabler:eye" class="w-8" size="1.5rem" />
-                        {{ props.clicks }}
-                    </v-chip>
-                    <v-chip label  size="large" link target="_blank" rel="noopener noreferrer" :href="`https://www.clhs.tyc.edu.tw/ischool/public/news_view/show.php?nid=${props.id}`">
-                        <icon name="tabler:link" class="w-8" size="1.5rem" />
-                        Link
-                    </v-chip>
-                </div>
-            </v-expansion-panel-text>
-        </v-expansion-panel>
+    <v-expansion-panel>
+        <v-expansion-panel-title @click="getNewsContent">
+            <span :style="iconStyle">
+                <icon name="mdi:information" size="1.5rem" />
+            </span>
+            <h1 class="text-lg mx-2">{{ props.title }}</h1>
+        </v-expansion-panel-title>
+        <v-progress-linear v-if="loading" color="indigo-lighten-2" height="8" indeterminate></v-progress-linear>
+        <v-expansion-panel-text v-else>
+            <div class="content p-4" v-html="content"></div>
+            <div class="flex flex-wrap gap-2 my-4">
+                <v-chip size="large">
+                    <icon name="tabler:calendar-smile" size="1.5rem" />
+                    <p class="ml-2">{{ props.time }}</p>
+                </v-chip>
+                <v-chip size="large">
+                    <icon name="tabler:building" size="1.5rem" />
+                    <p class="ml-2">{{ props.name }}</p>
+                </v-chip>
+                <v-chip size="large">
+                    <icon name="tabler:eye" size="1.5rem" />
+                    <p class="ml-2">{{ props.clicks }}</p>
+                </v-chip>
+                <v-chip
+                    size="large"
+                    color="primary"
+                    link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    :href="`https://www.clhs.tyc.edu.tw/ischool/public/news_view/show.php?nid=${props.id}`"
+                >
+                    <icon name="tabler:link" size="1.5rem" />
+                    <p class="ml-2">連結(附件)</p>
+                </v-chip>
+            </div>
+        </v-expansion-panel-text>
+    </v-expansion-panel>
 </template>
 
 <script setup>
 import cheerio from 'cheerio';
+import html2canvas from 'html2canvas';
+import { saveAs } from 'file-saver';
+
 const props = defineProps({
     id: String,
     title: String,
@@ -56,7 +69,7 @@ function hexToColor(hex) {
     }
 }
 
-const titleStyle = {
+const iconStyle = {
     color: hexToColor(props.titleColor)
 }
 const content = ref('')
@@ -77,4 +90,8 @@ const cleanStyle= (html) =>{
 </script>
 
 <style>
+.content a {
+    text-decoration: underline;
+    color:dodgerblue;
+}
 </style>

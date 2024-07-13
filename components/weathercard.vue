@@ -1,5 +1,5 @@
 <template>
-    <v-card v-if="data">
+  <v-card v-if="data">
     <div class="px-4 py-2">
       <div class="flex justify-between">
         <v-card-item title="中壢">
@@ -8,7 +8,8 @@
           </template>
         </v-card-item>
         <p class="text-end p-2 text-gray-400">
-          <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">open-meteo</a>
+          Last updated
+          {{ DateTime.fromISO(data.current.time).toFormat('HH:mm') }}
         </p>
       </div>
   
@@ -31,24 +32,30 @@
         </v-row>
       </v-card-text>
   
-      <div class="d-flex pb-2 justify-space-between">
-        <v-list-item density="compact">
-            <div class="flex item-center text-gray-400">
-              <icon name="meteocons:wind" size="1.5rem" />
-              {{data.current.wind_speed_10m}} km/h
-            </div>
-          </v-list-item>
-  
-        <v-list-item density="compact">
-          <div class="flex item-centerteo  text-gray-400">
-            <icon name="meteocons:raindrop-fill" size="1.5rem" />
-            {{Math.max(...getPrecipitation(data))}}%
-            ({{getPrecipitation(data).indexOf(Math.max(...getPrecipitation(data)))}}時)
-          </div>
-        </v-list-item>
+      <div class="grid grid-cols-2 gap-2 p-4">
+        <div class="flex item-center text-gray-400 gap-1">
+          <icon name="tabler:temperature" size="1.5rem" />
+          體感
+          {{data.current.apparent_temperature}}&deg;C
+        </div>
+        <div class="flex item-center text-gray-400 gap-1">
+          <icon name="tabler:circle-percentage" size="1.5rem" />
+          濕度
+          {{data.current.relative_humidity_2m}}%
+        </div>
+        <div class="flex item-center text-gray-400 gap-1">
+          <icon name="meteocons:wind" size="1.5rem" />
+          {{getDirection(data.current.wind_direction_10m)}}
+          {{data.current.wind_speed_10m}} km/h
+        </div>
+        <div class="flex item-center text-gray-400 gap-1">
+          <icon name="tabler:umbrella" size="1.5rem" />
+          {{Math.max(...getPrecipitation(data))}}%
+          ({{getPrecipitation(data).indexOf(Math.max(...getPrecipitation(data)))}}時)
+        </div>
       </div>
     </div>
-    </v-card>
+  </v-card>
   </template>
 
 <script setup>
@@ -104,9 +111,9 @@ const getWeatherIcon = (weather) => {
 }
 
 const weatherCodeDescriptions = {
-  0: "晴天",
-  1: "主要晴朗",
-  2: "部分多雲",
+  0: "晴朗",
+  1: "晴朗",
+  2: "多雲",
   3: "陰天",
   45: "霧",
   48: "霧凇",
@@ -136,6 +143,12 @@ const weatherCodeDescriptions = {
 
 function decodeWeatherCode(weatherCode) {
   return weatherCodeDescriptions[weatherCode] || "未知天氣代碼";
+}
+
+const getDirection = (angle) => {
+    const directions = ["北", "東北", "東", "東南", "南", "西南", "西", "西北"];
+    const index = Math.round(angle / 45) % 8;
+    return directions[index];
 }
 
 getWeather()
